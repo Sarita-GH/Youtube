@@ -1,5 +1,7 @@
-header{
+header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     height:60px;
 }
 header > div{
@@ -9,4 +11,27 @@ header > div{
 }
 img{
     width:50%;
+}
+
+.youtube__search-input {
+    width: 40%;
+    display: flex;
+    border: 1px solid grey;
+    max-height: 26px;
+}
+.youtube__search-input button{
+    border: none;
+    cursor: pointer;
+}
+.youtube__search-input button:hover{
+    background-color: rgb(216, 212, 212);
+}
+.youtube__search-input input {
+    border: none;
+    flex:1;
+}
+.youtube__actions{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
 }
