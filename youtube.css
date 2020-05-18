@@ -60,3 +60,43 @@ h2{
 .youtube__videos__info__text{
     line-height: 1px;
 }
+aside{
+    width: 30%; 
+}
+aside > section{
+    border-bottom: thin solid lightgray;
+    display: flex;
+    flex-direction: column;
+}
+.contenido{
+    display:flex;
+}
+h4{
+    color: rgb(157, 158, 158);
+    padding-bottom: 0px;
+    margin-bottom :0px;
+}
+iframe{
+    width: 200px;
+}
+.youtube__menu__susc img {
+    width: 40px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+.youtube__menu__susc{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.youtube__menu__info{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.youtube__menu__info img {
+    width: 15%;
+    margin: 0px 10px;
+}
