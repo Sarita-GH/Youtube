@@ -1,0 +1,25 @@
+.icon {
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+.icon-menu {
+    background: url('./Icons/menu.svg') no-repeat;
+}
+.icon-search {
+    background: url('./Icons/search.svg') no-repeat;
+    margin: 2px;
+}
+.icon-videocamera {
+    background: url('./Icons/videocamera.svg') no-repeat;
+}
+.icon-3x3 {
+    background: url('./Icons/3x3.svg') no-repeat;
+}
+.icon-alarm {
+    background: url('./Icons/alarm.svg') no-repeat;
+}
+.icon-user {
+    background: url('./Icons/user.svg') no-repeat;
+}
